@@ -1,0 +1,5 @@
+config PLATFORM_TEGRA250
+	bool "sun4i board"
+	select SMP
+	help
+		Say Y here if you are using the Allwinner A10 based board
